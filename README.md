@@ -20,6 +20,15 @@ npm install
 npm run dev      # http://localhost:5173
 ```
 
+## Deploy to GitHub Pages
+
+The app is deployed to the user site <https://mcbamm.github.io> by `.github/workflows/deploy.yml` on every push to `main`.
+
+1. Push this repo to `McBamm/mcbamm.github.io` (`main` branch).
+2. In that repo, go to **Settings > Pages** and set **Source** to **GitHub Actions**.
+
+> **Warning:** the existing site content in `McBamm/mcbamm.github.io` (if any) will be replaced by this app. Back it up first.
+
 ## Build and test
 
 ```sh
